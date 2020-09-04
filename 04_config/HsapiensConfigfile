@@ -1,0 +1,104 @@
+
+# The structure of this file and section names should not be changed!
+# See the documentation for more information.
+
+# ===============================================================================
+# Database
+# ===============================================================================
+
+## DATABASE
+#  --------
+# This section contains general information about the database.
+
+[DATABASE]
+
+# Name of the database
+DS_DATABASE_NAME = 20200608_Hsapiens_DS
+PRO_DATABASE_NAME = 20200608_Hsapiens_PRO
+
+# Species contained in the database
+DATABASE_SPECIES = Hsapiens
+
+# MySQL information
+DATABASE_USER_NAME = root
+DATABASE_USER_PASSWD = MetamORF
+DATABASE_HOST_IP = 127.0.0.1
+DATABASE_PORT = 3306
+
+
+
+
+# ===============================================================================
+# Gene lists of reference
+# ===============================================================================
+
+## GENE_LISTS
+#  ----------
+# This section contains the paths to the gene lists and cross-references that need to be
+# parsed and for which data need to be inserted in the database.
+# For a given list, provide the name of the list and the absolute path to its file.
+# The name of the list has to be the same as the name of one file parser.
+
+[GENE_LISTS]
+
+# HGNC gene list (HGNC IDs used as unique gene IDs in the database)
+HGNCGeneList = $WORKING_DIR/07_input/cross_references/hsapiens_HGNC.txt
+
+
+
+## GENE_LIST_ORDER_OF_INSERTION
+#  ----------------------------
+# This section has to be provided if the gene lists need to be parsed and inserted in a specific order.
+# List names have to be separated with a comma and using the same name as in the "DATASOURCE" section.
+# This section does not need to be provided if there is one single list use for cross-references.
+
+[GENE_LIST_ORDER_OF_INSERTION]
+GL_INSERTION_ORDER = HGNCGeneList
+
+
+
+
+# ===============================================================================
+# Data files to insert in the database
+# ===============================================================================
+
+## DATASOURCE
+#  ----------
+# This section contains the paths to the files that need to be parsed and for which data 
+# need to be inserted in the database.
+# For a given source, provide the name of the source and the absolute path to its file.
+# The name of the source has to be the same as the name of one file parser.
+
+[DATASOURCE]
+
+# sORFs database (Olexiouk et al., 2017)
+sORFs_org_Human = $WORKING_DIR/07_input/ORF_datasources/hsapiens_sORFs.org.txt
+
+# Erhard et al., 2018
+Erhard2018 = $WORKING_DIR/07_input/ORF_datasources/hsapiens_Erhard2018.csv
+
+# Mackowiak et al., 2015
+Mackowiak2015 = $WORKING_DIR/07_input/ORF_datasources/hsapiens_Mackowiak2015.txt
+
+# Johnstone et al., 2016
+Johnstone2016 = $WORKING_DIR/07_input/ORF_datasources/hsapiens_Johnstone2016.txt
+
+# Laumont et al., 2016
+Laumont2016 = $WORKING_DIR/07_input/ORF_datasources/hsapiens_Laumont2016.csv
+
+# Samandi et al., 2017
+Samandi2017 = $WORKING_DIR/07_input/ORF_datasources/hsapiens_Samandi2017.tsv
+
+
+
+## DATA_ORDER_OF_INSERTION
+#  -----------------------
+# This section has to be provided if the raw data need to be parsed and inserted in a specific order.
+# Sources have to be separated with a comma and using the same name as in the "DATASOURCE" section. 
+# The program will first treat the sources provided in this list in the appropriate order and then
+# parse and insert data from the other sources if all of them are not present in this list.
+# Usually this section does not need to be provided.
+
+[DATA_ORDER_OF_INSERTION]
+DATA_INSERTION_ORDER = sORFs_org_Human, Erhard2018, Mackowiak2015, Johnstone2016, Laumont2016, Samandi2017
+
