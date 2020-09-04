@@ -1,0 +1,125 @@
+Data source,Cell context,Description,Full description,Context name,Strain,Fraction,M. musculus,H. sapiens
+sORFs.org,crappe_2014,HCT116,Malignant cells isolated from a male with colonic carcinoma. ,HCT116,,,,x
+sORFs.org,fritsch_2012,THP-1,Human monocytic cell line derived from an acute monocytic leukemia patient.,THP-1,,,,x
+sORFs.org,lee_2012 ,HEK293,"Human embryonic kidney cells 293 (HEK 293, HEK-293, 293 cells), cell line originally derived from human embryonic kidney cells grown in tissue culture ",HEK293,,,,x
+sORFs.org,stern_ginossar_2012,Fibroblasts (THP-1),Human monocytic cell line derived from an acute monocytic leukemia patient.,THP-1,,,,x
+sORFs.org,andreev_2015 ,HEK293,"Human embryonic kidney cells 293 (HEK 293, HEK-293, 293 cells), cell line originally derived from human embryonic kidney cells grown in tissue culture ",HEK293,,,,x
+sORFs.org,Grow_2015,NCCIT,Pluripotent human embryonic carcinoma cells ,NCCIT,,,,x
+sORFs.org,wang_2015 ,HeLa,Immortal human cervical cancer cell line ,HeLa,,,,x
+sORFs.org,eichorn_2014 ,HEK293T," Human embryonic kidney cells 293 which stably express the SV40 large T antigen, specific cell line originally derived from human embryonic kidney cells grown in tissue culture ",HEK293T,,,,x
+sORFs.org,gonzalez_2014,Human brain tissue,Human brain tissue,Brain,,,,x
+sORFs.org,jan_2014 ,HEK293T," Human embryonic kidney cells 293 which stably express the SV40 large T antigen, specific cell line originally derived from human embryonic kidney cells grown in tissue culture ",HEK293T,,,,x
+sORFs.org,niu_2014,HeLa,Immortal human cervical cancer cell line ,HeLa,,,,x
+sORFs.org,yoon_2014 ,HeLa,Immortal human cervical cancer cell line ,HeLa,,,,x
+sORFs.org,sidrauski_2015 ,HEK293,"Human embryonic kidney cells 293 (HEK 293, HEK-293, 293 cells), cell line originally derived from human embryonic kidney cells grown in tissue culture ",HEK293,,,,x
+sORFs.org,rutkowski_2015 ,Human foreskin fibroblasts,Human foreskin fibroblasts,HFF,,,,x
+sORFs.org,rubio_2014 ,MDA-MB-231,Human breast cancer cell line,MDA-MB-231,,,,x
+sORFs.org,"liu_2013_HEK, liu_HEK_2013",HEK293,"Human embryonic kidney cells 293 (HEK 293, HEK-293, 293 cells), cell line originally derived from human embryonic kidney cells grown in tissue culture ",HEK293,,,,
+sORFs.org,"liu_2013_HeLa, liu_Hela_2013",HeLa,Immortal human cervical cancer cell line ,HeLa,,,,
+sORFs.org,loayza_puch_2013 ,BJ,Human skin fibroblast,BJ,,,,x
+sORFs.org,rooijers_2013,BJ,Human skin fibroblast,BJ,,,,x
+sORFs.org,stumpf_2013 ,G1 synchronized HeLa,Immortal human cervical cancer cell line ,HeLa,,,,x
+sORFs.org,wiita_2013 ,MM.1S,Human myeloma cell line ,MM1S,,,,x
+sORFs.org,ingolia_2012 ,HEK293,"Human embryonic kidney cells 293 (HEK 293, HEK-293, 293 cells), cell line originally derived from human embryonic kidney cells grown in tissue culture ",HEK293,,,,x
+sORFs.org,ingolia_2014 ,HEK293,"Human embryonic kidney cells 293 (HEK 293, HEK-293, 293 cells), cell line originally derived from human embryonic kidney cells grown in tissue culture ",HEK293,,,,x
+sORFs.org,calviello_2016 ,HEK293,"Human embryonic kidney cells 293 (HEK 293, HEK-293, 293 cells), cell line originally derived from human embryonic kidney cells grown in tissue culture ",HEK293,,,,x
+sORFs.org,elkon_2015,U-2 OS,Human Bone Osteosarcoma Epithelial Cells ,U-2OS,,,,x
+sORFs.org,gawron_2016 ,Jurkat,Immortalized cell line of human T lymphocyte ,Jurkat,,,,x
+sORFs.org,iwasaki_2016 ,HEK293,"Human embryonic kidney cells 293 (HEK 293, HEK-293, 293 cells), cell line originally derived from human embryonic kidney cells grown in tissue culture ",HEK293,,,,x
+sORFs.org,park_2016 ,HeLa,"Cell line was derived from human cervical cancer cells taken on February 8, 1951 from Henrietta Lacks ",HeLa,,,,x
+sORFs.org,tanenbaum_2015 ,RPE-1,Retinal pigment epithelium -1 cell line ,RPE-1,,,,x
+sORFs.org,tirosh_2015 ,REP-1,Retinal pigment epithelium -1 cell line ,RPE-1,,,,x
+sORFs.org,wein_2014 ,Skeletal muscle,Human skeletal muscle cells ,Skeletal_muscle,,,,x
+sORFs.org,werner_2015 ,hES ,Human Embryonic Stem cell line ,hES ,,,,x
+sORFs.org,xu_2016 ,hES ,Human Embryonic Stem cell line ,hES ,,,,x
+sORFs.org,zur_2016 ,HeLa,Immortal human cervical cancer cell line ,HeLa,,,,x
+sORFs.org,guo_2010_mmu ,Neutrophils,"Neutrophils cultured from wild-type mouse bone marrow, strain C57BL/6 ",Neutrophil,C57BL/6,,x,
+sORFs.org,hurt_2013 ,v6.5 ,v6.5 Mouse embryonic stem cells from a 3.5 day old male mouse embryo. ,V6.5,,,x,
+sORFs.org,ingolia_2014_mmu,E14 mESC ,Mouse embryonic stem cell 14 days old,E14,,,x,
+sORFs.org,katz_2014 ,NSC,"Mouse neural stem cells, development stage: E12.5 ",NSC,,,x,
+sORFs.org,thoreen_2012,MEF,"Mouse embryonic fibroblast, genotype: 4EBP1/2 +/+ p53 -/- ",MEF,,,x,
+sORFs.org,diaz_munoz_2015,splenic B,"Mouse Splenic B cells negative selection using a cocktail of biotin-conjugated antibodies against CD43, CD4 , and Ter-119 (Mylteni 130-090-862) ",Spleen_B_cell,,,x,
+sORFs.org,eichorn_3t3_2014,3T3,Mouse 3T3 fibroblasts ,3T3,,,x,
+sORFs.org,eichorn_bcell_2014,B cell,Mouse B cell,B_cell,,,x,
+sORFs.org,eichorn_liver_2014,liver,Mouse liver cells,Liver,,,x,
+sORFs.org,gonzalez_2014_mmu,Mouse brain,Mouse brain cells,Brain,,,x,
+sORFs.org,Ingolia_2011,Mouse embryonic stem cells,"Mouse embryonic stem cells, cell line E14 ",E14,,,x,
+sORFs.org,jovanovic_2015 ,bone marrow-derived primary dendritic ,Mouse bone marrow-derived primary dendritic cells ,BMDC,,,x,
+sORFs.org,lee_2012_mmu,MEF,Mouse embryonic fibroblasts ,MEF,,,x,
+sORFs.org,blanco_2016 ,Mouse skin papiloma,"Mouse skin squamous tumours, strain C57BL/6 ",Skin_tumour,C57BL/6,,x,
+sORFs.org,castaneda_2014 ,Mouse testis,"mouse testis, strain 129SvJae ",Testis,,,x,
+sORFs.org,cho_2015 ,Mouse brain,"Mouse Hippocampal tissue, strain C57BL/6N ",Brain,C57BL/6,,x,
+sORFs.org,deklerck_2015 ,Mouse myoblasts,Mouse C2C12 myoblasts ,C2C12,,,x,
+sORFs.org,fields_2015 ,Mouse dendritic cells,"Bone marrow-derived dendritic cells, strain C57BL/6J, age 6-8 weeks ",BMDC,C57BL/6,,x,
+sORFs.org,gao_mef_2014 ,Mouse MEF cells,Mouse embryonic fibroblasts ,MEF,,,x,
+sORFs.org,gao_liver_2014,Mouse liver cells ,Mouse liver cells ,Liver,,,x,
+sORFs.org,gerashchenko_2016 ,liver,"Mouse liver, strain C57BL6 ",Liver,C57BL/6,,x,
+sORFs.org,janich_2015 ,Mouse liver,"Mouse liver cells, age 11-12 weeks , strain: C57BL/6JRj ",Liver,C57BL/6,,x,
+sORFs.org,laguesse_2015 ,Mouse brain ,Mouse forebrains from E14.5 mouse embryos ,Brain,E14.5,,x,
+sORFs.org,reid_er_2016,Mouse embryonic fibroblasts ,"Mouse embryonic fibroblasts, endoplasmic reticulum fraction ",MEF,,ER,x,
+sORFs.org,reid_cytosol_2016,Mouse embryonic fibroblasts ,"Mouse embryonic fibroblasts, cytosol fraction ",MEF,,Cytosol,x,
+sORFs.org,you_2015 ,Mouse embryonic fibroblasts ,R1 mESC (mouse Embryonic Stem Cells) ,R1E,,,x,
+sORFs.org,reid_2014,Mouse embryonic fibroblasts ,Mouse embryonic fibroblasts ,MEF,,,x,
+sORFs.org,jakobsson_2017,HAP1,"HAP1 cells are near-haploid, having a single copy of nearly every chromosome",HAP1,,,,
+sORFs.org,mills_2016 ,Blood,Human blood cells ,Blood,,,,
+sORFs.org,park_2017,HEK293,"Human embryonic kidney cells 293 (HEK 293, HEK-293, 293 cells), cell line originally derived from human embryonic kidney cells grown in tissue culture ",HEK293,,,,
+sORFs.org,shi_2017,HeLa,Human immortalized cell line ,HeLa,,,,
+sORFs.org,zhang_2017 ,HEK293,"Human embryonic kidney cells 293 (HEK 293, HEK-293, 293 cells), cell line originally derived from human embryonic kidney cells grown in tissue culture ",HEK293,,,,
+sORFs.org,su_2015 ,monocytes,isolated human monocytes ,Monocyte,,,,
+sORFs.org,cenik_2015,LCL ,human lymphoblastoid cells ,LCL,,,,
+sORFs.org,Loayza_Puch_2016,MCF7 ,Breast cancer cell line ,MCF7,,,,
+sORFs.org,ji_BJ_2015,BJ,human fibroblasts (foreskin) ,BJ,,,,
+sORFs.org,ji_breast_2015,Breast,human epihelial breast cells (MCF10A) ,MCF10A,,,,
+sORFs.org,malecki_2017 ,Flp-In T-REx-293 ,Flp-In T-REx-293 cells (https://www.thermofisher.com/order/catalog/product/R78007),Flp-In T-REx-293 ,,,,x
+,,,,,,,,
+sORFs.org,guo_2014 ,UNKNOWN,,,,,,
+sORFs.org,guo_2010,UNKNOWN,,,,,,
+sORFs.org,liu_2013 ,UNKNOWN,,,,,,
+,,,,,,,,
+Johnstone2016,HeLa,,,HeLa,,,,
+Johnstone2016,HEK293,,,HEK293,,,x,
+Johnstone2016,Primary human foreskin fibroblasts (HFFs),,,HFF,,,x,
+Johnstone2016,Human brain tumour,,,Brain_tumor,,,x,
+Johnstone2016,Mouse Embryonic Stem Cells,,,MESC,,,,
+Johnstone2016,Mouse Embryonic Fibroblast (MEFs),,,MEF,,,,
+Johnstone2016,Mouse liver cell,,,Liver,,,,
+Johnstone2016,Mouse gliomal cells,,,Glioma,,,,
+,,,,,,,,
+Erhard2018,Primary human fibroblast (HFF),,,HFF,,,,
+,,,,,,,,
+Laumont2016,B cells,,,B_cell,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Non included sORFs datasets,,,,,,,,
+sORFs.org,dunn_2014 ,S2,Drosophila melanogaster cell line S2 (Schneider 2) cells were derived from a primary culture of late stage (20–24 hours old) Drosophila melanogaster embryos,,,,,
+sORFs.org,kronja_2014,Oocytes,Drosophila melanogaster oocytes ,,,,,
+sORFs.org,aspden_2014 ,S2,Drosophila melanogaster cell line S2 (Schneider 2) cells were derived from a primary culture of late stage (20–24 hours old) Drosophila melanogaster embryos ,,,,,
+sORFs.org,chew_2013,zebrafish embryos ,"Ribosome profiling over 8 stages in early zebrafish development: 2-4 cell, 256 cell, 1K cell, Dome, Shield, Bud, 28hpf and 5dpf ",,,,,
+sORFs.org,lee_2013 ,zebrafish embryos ,zebrafish embryos at different stages ,,,,,
+sORFs.org,bazinni_2014 ,Whole embryos,Zebrafish embryos at stage 5h-48h ,,,,,
+sORFs.org,arnold_n2_2014,N2,young adults,,,,,
+sORFs.org,arnold_c14_2014,C14,"whole young adults worms, cey-1 (rrr12), cey-4 (ok858) mutant",,,,,
+sORFs.org,hendriks_2014 ,N2,young adults,,,,,
+sORFs.org,nedialkova_2015 ,N2,young adults,,,,,
+sORFs.org,stadler_2012 ,L1,Larval stage 1 ,,,,,
+sORFs.org,stadler_fire_2011 ,L1-L4,Larval stage 1-4 ,,,,,
+sORFs.org,andreev_2015_rat,PC12,"PC12 is a cell line derived from a pheochromocytoma of the rat adrenal medulla, that have an embryonic origin from the neural crest that has a mixture of neuroblastic cells and eosinophilic cells. ",,,,,
+sORFs.org,ori_brain_2015,Brain,rat brain from 6 and 24 month old rats ,,,,,
+sORFs.org,ori_liver_2015,liver,rat liver from 6 and 24 month old rats ,,,,,
+sORFs.org,schafer_heart_2015,Heart,Rat heart tissue from 6-week-old unfasted BN-Lx and SHR/Ola male rats ,,,,,
+sORFs.org,schafer_liver_2015,?,?,,,,,

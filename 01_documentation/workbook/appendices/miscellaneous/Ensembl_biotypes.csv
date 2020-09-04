@@ -1,0 +1,60 @@
+Ensembl biotypes,,,,,,
+,,,,,,
+URL:,,https://www.ensembl.org/info/genome/genebuild/biotypes.html,,,,
+Consulted on:,,04/02/20,,,,
+,,,,,,
+Biotype category,Biotype subcategory,Biotype name,Biotype alias(es),Definition,ORF re-annotation(s),Should further annotation be expected?
+###,,,,,,
+,,,,,,
+Processed transcript,,Processed transcript,processed_transcript,Gene/transcript that doesn't contain an open reading frame (ORF).,ncRNA,No
+Processed transcript,lncRNA,Long non-coding RNA,lncRNA,A non-coding gene/transcript >200bp in length,ncRNA,No
+Processed transcript,lncRNA,3' overlapping ncRNA,,Transcripts where ditag and/or published experimental data strongly supports the existence of long (>200bp) non-coding transcripts that overlap the 3'UTR of a protein-coding locus on the same strand.,"ncRNA, Downstream",No
+Processed transcript,lncRNA,Antisense,antisense,Transcripts that overlap the genomic span (i.e. exon or introns) of a protein-coding locus on the opposite strand.,Overlapping,No
+Processed transcript,lncRNA,Macro lncRNA,,Unspliced lncRNAs that are several kb in size.,ncRNA,No
+Processed transcript,lncRNA,Non coding,,Transcripts which are known from the literature to not be protein coding.,ncRNA,No
+Processed transcript,lncRNA,Retained intron,retained_intron,"An alternatively spliced transcript believed to contain intronic sequence relative to other, coding, transcripts of the same gene.",Intronic,Yes (if CDS known)
+Processed transcript,lncRNA,Sense intronic,sense_intronic,A long non-coding transcript in introns of a coding gene that does not overlap any exons.,Intronic,Yes (if CDS known)
+Processed transcript,lncRNA,Sense overlapping,sense_overlapping,A long non-coding transcript that contains a coding gene in its intron on the same strand.,Intronic,Yes (if CDS known)
+Processed transcript,lncRNA,Long intergenic ncRNA,lincRNA,Transcripts that are long intergenic non-coding RNA locus with a length >200bp. Requires lack of coding potential and may not be conserved between species.,"ncRNA, Intergenic",No
+,,,,,,
+Processed transcript,ncRNA,ncRNA,,A non-coding gene.,ncRNA,No
+Processed transcript,ncRNA,miRNA,,A small RNA (~22bp) that silences the expression of target mRNA.,ncRNA,No
+Processed transcript,ncRNA,miscRNA,,Miscellaneous RNA. A non-coding RNA that cannot be classified.,ncRNA,No
+Processed transcript,ncRNA,piRNA,,An RNA that interacts with piwi proteins involved in genetic silencing.,ncRNA,No
+Processed transcript,ncRNA,rRNA,,The RNA component of a ribosome.,ncRNA,No
+Processed transcript,ncRNA,siRNA,,A small RNA (20-25bp) that silences the expression of target mRNA through the RNAi pathway.,ncRNA,No
+Processed transcript,ncRNA,snRNA,,Small RNA molecules that are found in the cell nucleus and are involved in the processing of pre messenger RNAs,ncRNA,No
+Processed transcript,ncRNA,snoRNA,,Small RNA molecules that are found in the cell nucleolus and are involved in the post-transcriptional modification of other RNAs.,ncRNA,No
+Processed transcript,ncRNA,tRNA,,"A transfer RNA, which acts as an adaptor molecule for translation of mRNA.",ncRNA,No
+Processed transcript,ncRNA,vaultRNA,,Short non coding RNA genes that form part of the vault ribonucleoprotein complex.,ncRNA,No
+,,,,,,
+Protein coding,,Protein coding,protein_coding,Gene/transcipt that contains an open reading frame (ORF).,,Yes
+,,,,,,
+Pseudogene,,Pseudogene,,A gene that has homology to known protein-coding genes but contain a frameshift and/or stop codon(s) which disrupts the ORF. Thought to have arisen through duplication followed by loss of function.,Pseudogene,Yes (if CDS known)
+Pseudogene,,IG pseudogene,,Inactivated immunoglobulin gene.,Pseudogene,Yes
+Pseudogene,,Polymorphic pseudogene,,Pseudogene owing to a SNP/indel but in other individuals/haplotypes/strains the gene is translated.,Pseudogene,Yes (if CDS known)
+Pseudogene,,Processed pseudogene,processed_pseudogene,Pseudogene that lack introns and is thought to arise from reverse transcription of mRNA followed by reinsertion of DNA into the genome.,Pseudogene,Yes (if CDS known)
+Pseudogene,,Transcribed pseudogene,transcribed_processed_pseudogene,"Pseudogene where protein homology or genomic structure indicates a pseudogene, but the presence of locus-specific transcripts indicates expression. These can be classified into 'Processed', 'Unprocessed' and 'Unitary'.",Pseudogene,No
+Pseudogene,,Translated pseudogene,,"Pseudogenes that have mass spec data suggesting that they are also translated. These can be classified into 'Processed', 'Unprocessed'",Pseudogene,Yes (if CDS known)
+Pseudogene,,Unitary pseudogene,"transcribed_unitary_pseudogene, unitary_pseudogene","A species specific unprocessed pseudogene without a parent gene, as it has an active orthologue in another species.",Pseudogene,No
+Pseudogene,,Unprocessed pseudogene,"transcribed_unprocessed_pseudogene, unprocessed_pseudogene",Pseudogene that can contain introns since produced by gene duplication.,Pseudogene,Yes (if CDS known)
+,,,,,,
+Readthrough,,Readthrough,,A readthrough transcript has exons that overlap exons from transcripts belonging to two or more different loci (in addition to the locus to which the readthrough transcript itself belongs).,Readthrough,No
+,,,,,,
+Stop codon readthrough,,Stop codon readthrough,,"The coding sequence contains a stop codon that is translated (as supported by experimental evidence), and termination occurs instead at a canonical stop codon further downstream. It is currently unknown which codon is used to replace the translated stop codon, hence it is represented by 'X' in the protein sequence.",Stop_readthrough,No
+,,,,,,
+To be Experimentally Confirmed,,To be Experimentally Confirmed,TEC,"Regions with EST clusters that have polyA features that could indicate the presence of protein coding genes. These require experimental validation, either by 5' RACE or RT-PCR to extend the transcripts, or by confirming expression of the putatively-encoded peptide with specific antibodies.",,Yes (if CDS known)
+,,,,,,
+IG gene,,IG gene,,"Immunoglobulin gene that undergoes somatic recombination, annotated in collaboration with IMGT http://www.imgt.org/.",,Yes
+IG gene,,IG C gene,,Constant chain immunoglobulin gene that undergoes somatic recombination before transcription,,Yes
+IG gene,,IG D gene,,Diversity chain immunoglobulin gene that undergoes somatic recombination before transcription,,Yes
+IG gene,,IG J gene,,Joining chain immunoglobulin gene that undergoes somatic recombination before transcription,,Yes
+IG gene,,IG V gene,,Variable chain immunoglobulin gene that undergoes somatic recombination before transcription,,Yes
+,,,,,,
+TR gene,,TR gene,,"T cell receptor gene that undergoes somatic recombination, annotated in collaboration with IMGT http://www.imgt.org/.",,Yes
+TR gene,,TR C gene,,Constant chain T cell receptor gene that undergoes somatic recombination before transcription,,Yes
+TR gene,,TR D gene,,Diversity chain T cell receptor gene that undergoes somatic recombination before transcription,,Yes
+TR gene,,TR J gene,,Joining chain T cell receptor gene that undergoes somatic recombination before transcription,,Yes
+TR gene,,TR V gene,,Variable chain T cell receptor gene that undergoes somatic recombination before transcription,,
+,,,,,,
+NSD,,Non sense mediated decay,nonsense_mediated_decay,Non sense mediated decay,NMD,No

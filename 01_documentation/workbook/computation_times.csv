@@ -1,0 +1,43 @@
+Examples of computation times,,,,
+,,,,
+Integrating 6 datasets,,,,
+40 threads avalaible,,,,
+Default setting have been used except when contrary information is provided in the comments column,,,,
+,,,,
+All times at format dd hh:mm:ss,,Duration,Duration,Duration
+,,Expected order of magnitude,Run 2020_08_06_Hsapiens,Run 2020_08_06_Mmusculus
+Step,Sub-step,,,
+,,,,
+DatabaseCheck,Full database check,~10 s,00 00:00:08,00 00:00:10
+,,,,
+Insertion,Insertion of 6 datasets,~1-5 hrs,00 03:37:20,00 01:57:31
+LiftOver,Liftover,~30 min,00 00:32:03,00 00:26:00
+,,,,
+Merge,Full merging,~1-5 days,02 19:58:17,00 10:25:26
+,-- Copy conserved tables,~1-5 min,,
+,-- Merge DSORFs,,,
+,---- Merge perfectly identical DSORFs,~1-10 min,,
+,---- Merge same DSORFs,~1-5 hrs,,
+,---- Merge similar DSORFs,~1-5 hrs,,
+,-- Merge DSTranscripts,,,
+,---- Merge DSTranscripts with official IDs,~1-30 min,,
+,---- Merge DSTranscripts with unknwon IDs,~1-3 hrs,,
+,-- Merge DSORFTranscriptAsso,,,
+,---- Compute all existing (ORF Transcript IDs) couples,~1-3 days,,
+,---- Merge DSORFTranscriptAsso with consensus (-s option),~1-3 days,,
+,---- Merge DSORFTranscriptAsso without consensus,~1-5 hrs,,
+,,,,
+ComputeMissingInformation,"Compute / download missing information (-d option), merge cell contexts",~1-3 days,01 16:50:56,01 01:58:19
+ComputeRelativeCoordinates,Compute relative coordinates,~5-10 hrs,00 05:07:19,00 05:15:51
+ComputeKozakContext,Compute Kozak contexts,~1-10 min,00 00:03:52,00 00:05:20
+AnnotateORF,Compute ORFCategory (-s option) and ORFAnnotation (-a option) entries,~1-5 hrs,00 01:29:52,00 01:47:35
+,,,,
+GenerateBEDContent,Fill in the BED table,~10-20 min,00 00:14:43,00 00:11:40
+GenerateBEDFile,Generate a BED file from ORF entries,~10 s,,
+GenerateFastaFile,Generate a Fasta file from ORF entries,~10 s,,
+,,,,
+AssessDatabaseContent,Assess the database content,~10 s,00 00:01:00,00 00:00:40
+AddReleaseVersion,Add a version release number / description to the metadata,~10 s,00 00:00:03,00 00:00:03
+,,,,
+Backup,Backup the database in .dcorf files,~20-30 min,,
+Restore,Restore the database from .dcorf files,~20-30 min,,
