@@ -1,0 +1,31 @@
+FROM ubuntu:16.04
+
+MAINTAINER Sébastien A. Choteau (sebastien.choteau@inserm.fr)
+
+
+# ===========================================
+# INSTALL PYTHON AND PYTHON LIBRARIES
+# ===========================================
+
+## Dependencies
+RUN apt-get update && apt-get install -y apt-utils
+
+## Install Python 2
+RUN apt-get update && apt-get install -y python2.7
+
+## Install Pandas
+# Dependencies
+RUN apt-get update && apt-get install -y python-pip
+RUN pip install --upgrade pip
+RUN pip install --upgrade setuptools
+
+# Install Pandas
+RUN pip install pandas
+
+
+# ===========================================
+# CLEAN INSTALL
+# ===========================================
+
+RUN apt-get remove -y python-pip
+RUN apt-get clean

@@ -1,0 +1,27 @@
+
+version: '3.7'
+
+services:
+
+  dencellorf_mysql_db:
+    image: mysql:8.0.16
+    container_name: tagc-uorf-orf-datafreeze-mysql-server
+    restart: always
+    command: --default-authentication-plugin=mysql_native_password
+    volumes:
+      - ~/MetamORF/data/MySQL/dump:/dump
+      - ~/MetamORF/data/MySQL/MySQL_DB:/var/lib/mysql
+    environment:
+      MYSQL_USER: developer
+      MYSQL_PASSWORD: MetamORF
+      MYSQL_ROOT_PASSWORD: MetamORF
+    ports:
+      - 3306:3306
+      
+  
+  adminer:
+    image: adminer:4.7.1
+    container_name: tagc-uorf-orf-datafreeze-mysql-adminer
+    restart: always
+    ports:
+      - 8080:8080
