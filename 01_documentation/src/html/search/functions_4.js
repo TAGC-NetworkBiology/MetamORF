@@ -1,0 +1,15 @@
+var searchData=
+[
+  ['db_5fexists',['db_exists',['../classfr_1_1tagc_1_1uorf_1_1core_1_1util_1_1sql_1_1SQLManager_1_1SQLManager.html#ac9c62ac9da213140e8b575b2a0615d31',1,'fr::tagc::uorf::core::util::sql::SQLManager::SQLManager']]],
+  ['debug',['debug',['../classfr_1_1tagc_1_1uorf_1_1core_1_1util_1_1log_1_1Logger_1_1Logger.html#a0728ceefbaa9b6627ec9c3f1db97412a',1,'fr::tagc::uorf::core::util::log::Logger::Logger']]],
+  ['delete_5fdata',['delete_data',['../classfr_1_1tagc_1_1uorf_1_1core_1_1util_1_1data_1_1DataManager_1_1DataManager.html#a53eb24d46b0a76d7ebf1a369d4446797',1,'fr::tagc::uorf::core::util::data::DataManager::DataManager']]],
+  ['delete_5fdatasource',['delete_datasource',['../classfr_1_1tagc_1_1uorf_1_1core_1_1execution_1_1DeletionStrategy_1_1DeletionStrategy.html#add12d7593111715940c346b6660df142',1,'fr::tagc::uorf::core::execution::DeletionStrategy::DeletionStrategy']]],
+  ['dict_5fto_5fcsv',['dict_to_csv',['../classfr_1_1tagc_1_1uorf_1_1core_1_1util_1_1general_1_1FileHandlerUtil_1_1FileHandlerUtil.html#a4e7c185aedfca203838a623bbcea8c88',1,'fr::tagc::uorf::core::util::general::FileHandlerUtil::FileHandlerUtil']]],
+  ['display',['display',['../classfr_1_1tagc_1_1uorf_1_1core_1_1util_1_1graphics_1_1ProgressionBar_1_1ProgressionBar.html#acbb3cc595e20a3a7663ad2c96a687e98',1,'fr::tagc::uorf::core::util::graphics::ProgressionBar::ProgressionBar']]],
+  ['download_5fmissing_5finfo',['download_missing_info',['../classfr_1_1tagc_1_1uorf_1_1core_1_1execution_1_1ComputeMissingInfoStrategy_1_1ComputeMissingInfoStrategy.html#a70c3e58d41861ae5d0e4324fa69b4e3f',1,'fr::tagc::uorf::core::execution::ComputeMissingInfoStrategy::ComputeMissingInfoStrategy']]],
+  ['download_5forf_5fseq',['download_orf_seq',['../classfr_1_1tagc_1_1uorf_1_1core_1_1execution_1_1ComputeMissingInfoStrategy_1_1ComputeMissingInfoStrategy.html#a33d53d58554ea4805ee160d1a98a3b98',1,'fr::tagc::uorf::core::execution::ComputeMissingInfoStrategy::ComputeMissingInfoStrategy']]],
+  ['download_5forf_5fsequences',['download_orf_sequences',['../classfr_1_1tagc_1_1uorf_1_1core_1_1execution_1_1ComputeMissingInfoStrategy_1_1ComputeMissingInfoStrategy.html#a82799e09b4309d6359898eeda4366517',1,'fr::tagc::uorf::core::execution::ComputeMissingInfoStrategy::ComputeMissingInfoStrategy']]],
+  ['download_5fseq_5ffrom_5fensembl',['download_seq_from_ensembl',['../classfr_1_1tagc_1_1uorf_1_1core_1_1execution_1_1ComputeMissingInfoStrategy_1_1ComputeMissingInfoStrategy.html#ad4626cbbbd8ca14ff4d9b831ca479a88',1,'fr::tagc::uorf::core::execution::ComputeMissingInfoStrategy::ComputeMissingInfoStrategy']]],
+  ['duplicate_5fdsorf_5fcoordinates',['duplicate_dsorf_coordinates',['../classfr_1_1tagc_1_1uorf_1_1core_1_1execution_1_1LiftOverStrategy_1_1LiftOverStrategy.html#a5387ffa97a5647ee14409ed06767af47',1,'fr::tagc::uorf::core::execution::LiftOverStrategy::LiftOverStrategy']]],
+  ['duplicate_5fdstranscript_5fcoordinates',['duplicate_dstranscript_coordinates',['../classfr_1_1tagc_1_1uorf_1_1core_1_1execution_1_1LiftOverStrategy_1_1LiftOverStrategy.html#a65a9326a6f986b1442a4fd78530c82c1',1,'fr::tagc::uorf::core::execution::LiftOverStrategy::LiftOverStrategy']]]
+];

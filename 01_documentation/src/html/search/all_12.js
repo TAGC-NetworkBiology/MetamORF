@@ -1,0 +1,17 @@
+var searchData=
+[
+  ['r_5fscript_5fbuild_5fannot_5fpackage_5fpath',['R_SCRIPT_BUILD_ANNOT_PACKAGE_PATH',['../classfr_1_1tagc_1_1uorf_1_1core_1_1execution_1_1ComputeRelCoordStrategy_1_1ComputeRelCoordStrategy.html#ae13a4ec9d22199e6f9f595ff9e918010',1,'fr::tagc::uorf::core::execution::ComputeRelCoordStrategy::ComputeRelCoordStrategy']]],
+  ['refconflictexception',['RefConflictException',['../classfr_1_1tagc_1_1uorf_1_1core_1_1util_1_1exception_1_1refexception_1_1RefConflictException_1_1RefConflictException.html',1,'fr::tagc::uorf::core::util::exception::refexception::RefConflictException']]],
+  ['refexception',['RefException',['../classfr_1_1tagc_1_1uorf_1_1core_1_1util_1_1exception_1_1refexception_1_1RefException_1_1RefException.html',1,'fr::tagc::uorf::core::util::exception::refexception::RefException']]],
+  ['refgenesearchexception',['RefGeneSearchException',['../classfr_1_1tagc_1_1uorf_1_1core_1_1util_1_1exception_1_1refexception_1_1RefGeneSearchException_1_1RefGeneSearchException.html',1,'fr::tagc::uorf::core::util::exception::refexception::RefGeneSearchException']]],
+  ['refgeneupdateexception',['RefGeneUpdateException',['../classfr_1_1tagc_1_1uorf_1_1core_1_1util_1_1exception_1_1refexception_1_1RefGeneUpdateException_1_1RefGeneUpdateException.html',1,'fr::tagc::uorf::core::util::exception::refexception::RefGeneUpdateException']]],
+  ['remove_5fsqlite_5fdb',['remove_sqlite_db',['../classfr_1_1tagc_1_1uorf_1_1core_1_1util_1_1sql_1_1SQLManager_1_1SQLManager.html#a82d8caf36f15ee6653fae8318849d7b6',1,'fr::tagc::uorf::core::util::sql::SQLManager::SQLManager']]],
+  ['reset_5fdsorf',['reset_dsorf',['../classfr_1_1tagc_1_1uorf_1_1core_1_1execution_1_1LiftOverStrategy_1_1LiftOverStrategy.html#accb23d55a3787303bd7396b0072cf632',1,'fr::tagc::uorf::core::execution::LiftOverStrategy::LiftOverStrategy']]],
+  ['reset_5fdstranscript',['reset_dstranscript',['../classfr_1_1tagc_1_1uorf_1_1core_1_1execution_1_1LiftOverStrategy_1_1LiftOverStrategy.html#ad552f23dae8c495d2779af294e615368',1,'fr::tagc::uorf::core::execution::LiftOverStrategy::LiftOverStrategy']]],
+  ['reset_5finstance',['reset_instance',['../classfr_1_1tagc_1_1uorf_1_1core_1_1util_1_1graphics_1_1ProgressionBar_1_1ProgressionBar.html#a2438c07596868bab8a953bac2b47888d',1,'fr::tagc::uorf::core::util::graphics::ProgressionBar::ProgressionBar']]],
+  ['restorestrategy',['RestoreStrategy',['../classfr_1_1tagc_1_1uorf_1_1core_1_1execution_1_1RestoreStrategy_1_1RestoreStrategy.html',1,'fr::tagc::uorf::core::execution::RestoreStrategy']]],
+  ['resume_5fafter_5fconserved',['RESUME_AFTER_CONSERVED',['../classfr_1_1tagc_1_1uorf_1_1core_1_1execution_1_1ResumeMergeStrategy_1_1ResumeMergeStrategy.html#af559d1ca95a227cea834b5a2aa92b9cd',1,'fr::tagc::uorf::core::execution::ResumeMergeStrategy::ResumeMergeStrategy']]],
+  ['resumemergestrategy',['ResumeMergeStrategy',['../classfr_1_1tagc_1_1uorf_1_1core_1_1execution_1_1ResumeMergeStrategy_1_1ResumeMergeStrategy.html',1,'fr::tagc::uorf::core::execution::ResumeMergeStrategy']]],
+  ['rm_5fstop_5ffrom_5fseq',['rm_stop_from_seq',['../classfr_1_1tagc_1_1uorf_1_1core_1_1execution_1_1insertion_1_1parserstrategy_1_1common_1_1sORFs__org_1_1sORFs__org.html#ad35950e4eecbe3a6ac244a108cb79ee6',1,'fr::tagc::uorf::core::execution::insertion::parserstrategy::common::sORFs_org::sORFs_org']]],
+  ['rollback_5fsession',['rollback_session',['../classfr_1_1tagc_1_1uorf_1_1core_1_1util_1_1sql_1_1SQLManager_1_1SQLManager.html#a7f776a82f32614882d5aa4c323366692',1,'fr::tagc::uorf::core::util::sql::SQLManager::SQLManager']]]
+];
